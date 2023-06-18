@@ -1,0 +1,54 @@
+
+.centered {
+    position: absolute; 
+    top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color:rgb(250, 246, 246);
+   font-family: 'Caveat', cursive;
+   
+ }
+ 
+ @media screen and (max-width: 2000px) {
+   #top-text {font-size: 18vh;}
+ }
+ @media screen and (max-width: 976px) {
+   #top-text {font-size: 12.5vh;}
+ }
+ @media screen and (max-width: 572px) {
+   #top-text {font-size: 11vh;}
+ }
+ @media screen and (max-width: 504px) {
+   #top-text {font-size: 10vh;}
+ }
+ @media screen and (max-width: 460px) {
+   #top-text {font-size: 9vh;}
+ }
+ @media screen and (max-width: 413px) {
+   #top-text {font-size: 8vh;}
+ }
+ @media screen and (max-width: 367px) {
+   #top-text {font-size: 7vh;}
+ }
+ @media screen and (max-width: 321px) {
+   #top-text {font-size: 6vh;}
+ }
+ @media screen and (max-width: 275px) {
+   #top-text {font-size: 5vh;}
+ }
+ @media screen and (max-width: 229px) {
+   #top-text {font-size: 4vh;}
+ }
+ @media screen and (max-width: 183px) {
+   #top-text {font-size: 2vh;}
+ }
+ 
+ 
+
+ .zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
